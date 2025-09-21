@@ -1,0 +1,124 @@
+/* Portfolio modern style */
+:root {
+  --bg: #0b0f14;
+  --fg: #e9eef5;
+  --muted: #a8b3c7;
+  --primary: #7aa2f7;
+  --card: #121826;
+  --border: rgba(255, 255, 255, .08);
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: Inter, Arial, sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.brand {
+  font-weight: 800;
+}
+
+.links a {
+  margin-left: 16px;
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.hero {
+  padding: 48px 0;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.subtitle {
+  color: var(--muted);
+}
+
+.cta {
+  margin: 20px 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.button.primary {
+  background: var(--primary);
+  color: #051224;
+  font-weight: 600;
+}
+
+.section {
+  margin: 48px 0;
+}
+
+h2 {
+  margin-bottom: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: var(--card);
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.meta {
+  font-size: 14px;
+  color: var(--muted);
+  margin-top: 10px;
+}
+
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 16px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.tags {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tags li {
+  border: 1px solid var(--border);
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: var(--card);
+}
