@@ -27,43 +27,58 @@
         <a href="#contact">Contact</a>
       </div>
     </nav>
+
     <section class="hero">
       <h1>Angèle Feussi</h1>
-      <p class="subtitle">Étudiante en <strong>Sciences des données appliquées</strong> — Ottawa, Canada.<br/>
-      J'aime transformer les données en décisions grâce à <strong>Python</strong>, <strong>SQL</strong>, <strong>Azure ML</strong> et <strong>Hadoop</strong>.</p>
+      <p class="subtitle">
+        <strong>Data Scientist junior | Data Analyst</strong> — Ottawa, Canada.<br/>
+        Je transforme les données en insights décisionnels grâce à <strong>Python</strong>,
+        <strong>SQL</strong>, <strong>Machine Learning</strong> et <strong>Big Data</strong>.
+      </p>
+
       <div class="cta">
-  <a class="button primary" href="#projects">Voir mes projets</a>
-  <a class="button" href="./assets/CV_FR.pdf" download>Mon CV (FR)</a>
-<a class="button" href="./assets/CV_EN.pdf" download>Mon CV (EN)</a>
-</div>
+        <a class="button primary" href="#projects">Voir mes projets</a>
+        <a class="button" href="./assets/CV_EN.pdf" download>Mon CV (EN)</a>
+        <a class="button" href="./assets/CV_FR.pdf" download>Mon CV (FR)</a>
+      </div>
     </section>
   </header>
+
   <main class="container">
     <section id="projects" class="section">
       <h2>Projets sélectionnés</h2>
+
       <div class="grid">
         <article class="card">
-          <h3>Classification du risque de diabète (IA)</h3>
-          <p>Projet scolaire en progression : mise en place de modèles de classification 
-          (Random Forest, XGBoost, KNN et réseau de neurones simple). Utilisation de techniques 
-          comme SMOTE pour équilibrer les données, validation croisée et comparaison des performances.</p>
-          <div class="meta">Python • scikit-learn • TensorFlow</div>
+          <h3>SMS Spam Detection — NLP & Machine Learning</h3>
+          <p>
+            Développement d’un pipeline NLP pour la classification automatique de SMS (spam / non-spam) :
+            prétraitement des textes, vectorisation TF-IDF, gestion du déséquilibre des classes et
+            comparaison de modèles supervisés (précision, rappel, F1-score).
+          </p>
+          <div class="meta">Python • NLP • scikit-learn • TF-IDF • Machine Learning</div>
+          <p><a href="https://github.com/Angelenguems/sms-spam-detection-nlp" target="_blank" rel="noopener noreferrer">Voir le projet sur GitHub</a></p>
         </article>
 
         <article class="card">
-          <h3>Ontario 511 — ETL & SQL Server</h3>
-          <p>Projet académique en progression : automatisation de l’import de fichiers CSV avec BULK INSERT 
-          vers des tables de staging, puis transfert vers le schéma principal. Premiers pas avec les clés 
-          étrangères, contraintes et planification via SQL Server Agent Jobs.</p>
-          <div class="meta">SQL Server • ETL • Automatisation</div>
+          <h3>NexaStore — Analytics Suite (Data Quality & Reporting)</h3>
+          <p>
+            Projet analytique structuré en trois modules : analyse exploratoire (EDA),
+            sprint de qualité des données (profiling, règles, priorisation) et reporting stratégique.
+            Traduction des analyses en KPIs et recommandations décisionnelles.
+          </p>
+          <div class="meta">Python • Pandas • Data Quality • KPI Reporting • Analytics</div>
+          <p><a href="https://github.com/Angelenguems/nexastore-data-analytics-suite" target="_blank" rel="noopener noreferrer">Voir le projet sur GitHub</a></p>
         </article>
 
         <article class="card">
-          <h3>Premier projet Hadoop — HDFS & Docker (début d’apprentissage)</h3>
-          <p>Déploiement d’un mini-cluster Hadoop dans Docker, premières manipulations de HDFS (création de répertoires, 
-          ajout et mise à jour de fichiers) et vérification de la réplication côté DataNodes. Image personnalisée publiée 
-          sur Docker Hub, puis automatisation du cluster avec docker-compose (NameNode, DataNodes, ResourceManager).</p>
-          <div class="meta">Hadoop • HDFS • Docker • Docker Hub • docker-compose</div>
+          <h3>NYC Taxi — Big Data Analytics (Spark & Hadoop)</h3>
+          <p>
+            Conception d’un pipeline Big Data pour analyser à grande échelle les trajets des taxis de New York :
+            ingestion depuis HDFS, transformations distribuées avec Spark, contrôles de qualité et agrégations analytiques.
+          </p>
+          <div class="meta">Apache Spark • Hadoop (HDFS) • PySpark • Big Data • Docker</div>
+          <p><a href="https://github.com/Angelenguems/nyc-taxi-bigdata-spark" target="_blank" rel="noopener noreferrer">Voir le projet sur GitHub</a></p>
         </article>
       </div>
     </section>
@@ -71,17 +86,19 @@
     <section id="skills" class="section">
       <h2>Compétences</h2>
       <ul class="tags">
-        <li>Python</li><li>Pandas</li><li>scikit-learn</li><li>TensorFlow</li>
-        <li>SQL Server</li><li>Azure ML</li><li>Git/GitHub</li>
+        <li>Python</li><li>Pandas</li><li>scikit-learn</li><li>SQL Server</li>
+        <li>TensorFlow</li><li>Azure ML</li><li>Git/GitHub</li>
         <li>Hadoop/HDFS</li><li>MongoDB</li><li>Data Viz</li>
       </ul>
     </section>
 
     <section id="about" class="section">
       <h2>À propos</h2>
-      <p>Je prépare un stage Hiver 2026 et je construis un portfolio orienté projets concrets : 
-      classification, automatisation SQL, Big Data. Je cherche un environnement où apprendre vite 
-      et contribuer à des produits data utiles.</p>
+      <p>
+        Data Scientist junior avec un fort intérêt pour l’analytics appliquée, la qualité des données et le Big Data.
+        Je développe des projets orientés problèmes concrets : classification NLP, data quality & reporting décisionnel,
+        pipelines Spark/Hadoop et automatisation des workflows.
+      </p>
     </section>
 
     <section id="contact" class="section">
