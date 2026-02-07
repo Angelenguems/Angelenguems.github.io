@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Angèle Blandine Feussi Nguemkam — Portfolio Data Science</title>
-  <link rel="stylesheet" href="./assets/style.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
   <!-- Google Analytics -->
-  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RBCCX4L4WR"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -16,101 +16,168 @@
     gtag('config', 'G-RBCCX4L4WR');
   </script>
 </head>
-<body>
-  <header class="container">
-    <nav class="nav">
-      <div class="brand">AF·DS</div>
-      <div class="links">
-        <a href="#projects">Projets</a>
-        <a href="#skills">Compétences</a>
-        <a href="#about">À propos</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
 
-    <section class="hero">
-      <h1>Angèle Feussi</h1>
-      <p class="subtitle">
-        <strong>Data Scientist junior | Data Analyst</strong> — Ottawa, Canada.<br/>
-        Je transforme les données en insights décisionnels grâce à <strong>Python</strong>,
-        <strong>SQL</strong>, <strong>Machine Learning</strong> et <strong>Big Data</strong>.
-      </p>
+<body class="is-preload">
 
-      <div class="cta">
-        <a class="button primary" href="#projects">Voir mes projets</a>
-        <a class="button" href="./assets/CV_EN.pdf" download>Mon CV (EN)</a>
-        <a class="button" href="./assets/CV_FR.pdf" download>Mon CV (FR)</a>
-      </div>
-    </section>
+<div id="wrapper" class="fade-in">
+
+  <!-- Intro -->
+  <div id="intro">
+    <h1>Angèle Blandine Feussi Nguemkam</h1>
+    <p>
+      <strong>Data Scientist junior | Data Analyst</strong><br />
+      Ottawa, Canada<br />
+      Python • SQL • Machine Learning • Big Data
+    </p>
+    <ul class="actions">
+      <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continuer</a></li>
+    </ul>
+  </div>
+
+  <!-- Header -->
+  <header id="header">
+    <a href="index.html" class="logo">ABFN · Data Science</a>
   </header>
 
-  <main class="container">
-    <section id="projects" class="section">
-      <h2>Projets sélectionnés</h2>
+  <!-- Navigation -->
+  <nav id="nav">
+    <ul class="links">
+      <li class="active"><a href="#main">Projets</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#footer">Contact</a></li>
+    </ul>
+    <ul class="icons">
+      <li><a href="https://github.com/Angelenguems" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+      <li><a href="mailto:angiguems@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+      <li><a href="https://www.linkedin.com/in/angele-blandine-feussi-nguemkam-846141140" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+    </ul>
+  </nav>
 
-      <div class="grid">
-        <article class="card">
-          <h3>SMS Spam Detection — NLP & Machine Learning</h3>
-          <p>
-            Développement d’un pipeline NLP pour la classification automatique de SMS (spam / non-spam) :
-            prétraitement des textes, vectorisation TF-IDF, gestion du déséquilibre des classes et
-            comparaison de modèles supervisés (précision, rappel, F1-score).
-          </p>
-          <div class="meta">Python • NLP • scikit-learn • TF-IDF • Machine Learning</div>
-          <p><a href="https://github.com/Angelenguems/sms-spam-detection-nlp" target="_blank" rel="noopener noreferrer">Voir le projet sur GitHub</a></p>
-        </article>
+  <!-- Main -->
+  <div id="main">
 
-        <article class="card">
-          <h3>NexaStore — Analytics Suite (Data Quality & Reporting)</h3>
-          <p>
-            Projet analytique structuré en trois modules : analyse exploratoire (EDA),
-            sprint de qualité des données (profiling, règles, priorisation) et reporting stratégique.
-            Traduction des analyses en KPIs et recommandations décisionnelles.
-          </p>
-          <div class="meta">Python • Pandas • Data Quality • KPI Reporting • Analytics</div>
-          <p><a href="https://github.com/Angelenguems/nexastore-data-analytics-suite" target="_blank" rel="noopener noreferrer">Voir le projet sur GitHub</a></p>
-        </article>
-
-        <article class="card">
-          <h3>NYC Taxi — Big Data Analytics (Spark & Hadoop)</h3>
-          <p>
-            Conception d’un pipeline Big Data pour analyser à grande échelle les trajets des taxis de New York :
-            ingestion depuis HDFS, transformations distribuées avec Spark, contrôles de qualité et agrégations analytiques.
-          </p>
-          <div class="meta">Apache Spark • Hadoop (HDFS) • PySpark • Big Data • Docker</div>
-          <p><a href="https://github.com/Angelenguems/nyc-taxi-bigdata-spark" target="_blank" rel="noopener noreferrer">Voir le projet sur GitHub</a></p>
-        </article>
-      </div>
-    </section>
-
-    <section id="skills" class="section">
-      <h2>Compétences</h2>
-      <ul class="tags">
-        <li>Python</li><li>Pandas</li><li>scikit-learn</li><li>SQL Server</li>
-        <li>TensorFlow</li><li>Azure ML</li><li>Git/GitHub</li>
-        <li>Hadoop/HDFS</li><li>MongoDB</li><li>Data Viz</li>
+    <!-- Featured Project -->
+    <article class="post featured">
+      <header class="major">
+        <span class="date">Projet phare</span>
+        <h2>SMS Spam Detection<br />NLP & Machine Learning</h2>
+        <p>
+          Pipeline NLP complet pour la classification automatique de SMS :
+          nettoyage des textes, vectorisation TF-IDF, gestion du déséquilibre
+          des classes et évaluation via précision, rappel et F1-score.
+        </p>
+      </header>
+      <a href="https://github.com/Angelenguems/sms-spam-detection-nlp" class="image main" target="_blank">
+        <img src="images/nlp-tfidf.png" alt="TF-IDF NLP pipeline for SMS spam detection" />
+      </a>
+      <ul class="actions special">
+        <li><a href="https://github.com/Angelenguems/sms-spam-detection-nlp" class="button large" target="_blank">Voir sur GitHub</a></li>
       </ul>
+    </article>
+
+    <!-- Other Projects -->
+    <section class="posts">
+
+      <article>
+        <header>
+          <h2>NexaStore<br />Data Quality & Analytics</h2>
+        </header>
+        <p>
+          Projet analytique structuré en trois modules : EDA,
+          sprint de qualité des données et reporting stratégique.
+          Traduction des analyses en KPIs et recommandations décisionnelles.
+        </p>
+        <ul class="actions special">
+          <li><a href="https://github.com/Angelenguems/nexastore-data-analytics-suite" class="button" target="_blank">GitHub</a></li>
+        </ul>
+      </article>
+
+      <article>
+        <header>
+          <h2>NYC Taxi<br />Big Data Analytics</h2>
+        </header>
+        <p>
+          Pipeline Big Data pour l’analyse à grande échelle
+          des trajets de taxis de New York : ingestion HDFS,
+          transformations distribuées avec Spark et contrôles de qualité.
+        </p>
+        <ul class="actions special">
+          <li><a href="https://github.com/Angelenguems/nyc-taxi-bigdata-spark" class="button" target="_blank">GitHub</a></li>
+        </ul>
+      </article>
+
     </section>
 
-    <section id="about" class="section">
-      <h2>À propos</h2>
+    <!-- Skills -->
+    <section id="skills" class="post">
+      <header class="major">
+        <h2>Compétences</h2>
+      </header>
       <p>
-        Data Scientist junior avec un fort intérêt pour l’analytics appliquée, la qualité des données et le Big Data.
-        Je développe des projets orientés problèmes concrets : classification NLP, data quality & reporting décisionnel,
-        pipelines Spark/Hadoop et automatisation des workflows.
+        <strong>Langages :</strong> Python, SQL<br />
+        <strong>Data Science :</strong> Pandas, NumPy, scikit-learn<br />
+        <strong>Machine Learning / NLP :</strong> TF-IDF, classification supervisée<br />
+        <strong>Big Data :</strong> Apache Spark, Hadoop (HDFS)<br />
+        <strong>Bases de données :</strong> SQL Server, MongoDB<br />
+        <strong>Outils :</strong> Git, GitHub, Docker
       </p>
     </section>
 
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <p>Intéressé·e par mon profil ? Écrivez-moi : <a href="mailto:angiguems@gmail.com">angiguems@gmail.com</a></p>
+    <!-- About -->
+    <section id="about" class="post">
+      <header class="major">
+        <h2>À propos</h2>
+      </header>
+      <p>
+        Microbiologiste de formation, je suis actuellement en reconversion
+        vers la Data Science et l’Intelligence Artificielle.
+        Je développe des projets orientés problèmes concrets :
+        analytics appliquée, qualité des données, machine learning et Big Data.
+      </p>
     </section>
-  </main>
 
-  <footer class="container footer">
-    <small>© <span id="year"></span> Angèle Blandine Feussi Nguemkam — Fait avec ♥ et Python.</small>
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <section>
+      <h3>Contact</h3>
+      <p>
+        Email : <a href="mailto:angiguems@gmail.com">angiguems@gmail.com</a><br />
+        GitHub : <a href="https://github.com/Angelenguems" target="_blank">Angelenguems</a><br />
+        LinkedIn : <a href="https://www.linkedin.com/in/angele-blandine-feussi-nguemkam-846141140" target="_blank">
+          angele-blandine-feussi-nguemkam
+        </a>
+      </p>
+      <ul class="actions">
+        <li><a href="assets/CV_EN.pdf" class="button" download>CV (EN)</a></li>
+        <li><a href="assets/CV_FR.pdf" class="button" download>CV (FR)</a></li>
+      </ul>
+    </section>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <!-- Copyright -->
+  <div id="copyright">
+    <ul>
+      <li>&copy; <span id="year"></span> Angèle Blandine Feussi Nguemkam</li>
+      <li>Design : HTML5 UP</li>
+    </ul>
+  </div>
+
+</div>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
 </body>
 </html>
